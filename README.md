@@ -55,7 +55,7 @@ Pour charger une série CT, il faut sélectionner le patient, puis l'étude et e
 ![Image](img/slicer_dicom_studies.PNG)
 
 La série devrait s'afficher, et la série chargée sur la partie gauche.
-{% include note.html type="warning" content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
+{% include note.html title="Attention" type="warning" content="Vérifier qu'il n'y a qu'une seule étude chargée afin de ne pas risquer de mélanger les patients. Si une série non voulue est chargée, il suffit de faire un clic droit et delete
 " %}
 ![Image](img/slicer_dicom_serie_chargee.PNG)
 
