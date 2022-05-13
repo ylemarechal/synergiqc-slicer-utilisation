@@ -2,17 +2,31 @@
 ---
 
 @import "{{ site.theme }}";
-
-.alert-info {
-    color: #0c5460;
-    background-color: #d1ecf1;
-    border-color: #bee5eb;
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
 }
 
-.alert-info hr {
-    border-top-color: #abdde5;
-}
+.alert.success {background-color: #04AA6D;}
+.alert.alert-info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
 
-.alert-info .alert-link {
-    color: #062c33;
-}
+//
+//.alert-info {
+//    color: #0c5460;
+//    background-color: #d1ecf1;
+//    border-color: #bee5eb;
+//}
+//
+//.alert-info hr {
+//    border-top-color: #abdde5;
+//}
+//
+//.alert-info .alert-link {
+//    color: #062c33;
+//}
+
