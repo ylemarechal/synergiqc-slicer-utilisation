@@ -1,10 +1,10 @@
 ## Utilisation de slicer pour les annotations
 
-Slicer est utilsé comme plateforme d'annotation des images. 
+Slicer est utilisé comme plateforme d'annotation des images. 
 
 ## Démarrage
 
-Pour lancer Slicer, une icone se trouve sur le bureau ou via le menu démarrer sur windows ou en recherchant avec 
+Pour lancer Slicer, une icône se trouve sur le bureau ou via le menu démarrer sur windows ou avec 
 stoplight sur mac (pomme + espace).
 
 ![Image](img/slicer_bureau.PNG)
@@ -12,7 +12,6 @@ stoplight sur mac (pomme + espace).
 Une fois démarré, vous arrivez sur la page d'accueil de slicer 
 
 ![Image](img/slicer_accueil.PNG)
-
 
 ## Chargement des images
 
@@ -23,6 +22,21 @@ Pour charger les images, il faut utiliser le module dicomweb, accessible via la 
 Il suffit de rechercher le module souhaité dans le menu déroulant, ou en écrivant son nom, ici ````dicomweb````
 
 ![Image](img/slicer_dicomweb.PNG)
+
+Il ne reste plus qu'à double-cliquer ou à cliquer sur ````Switch to module````.
+Sur le bandeau de gauche, il y a le bouton ````Show browser```` pour accéder aux données.
+
+![Image](img/slicer_dicomweb_menu.PNG)
+
+Dans la partie ````Server url````, faut inscrire l'url fournie.
+{% include tip.html
+content="**Attention:** Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement 
+la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé ." 
+%}
+
+![Image](img/slicer_dicomweb_url.PNG)
+
+![Image](img/slicer_dicomweb_chargement.PNG)
 
 You can use the [editor on GitHub](https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
