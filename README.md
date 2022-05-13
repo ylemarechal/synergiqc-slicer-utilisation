@@ -7,6 +7,9 @@ Slicer est utilisé comme plateforme d'annotation des images.
 Pour lancer Slicer, une icône se trouve sur le bureau ou via le menu démarrer sur windows ou avec 
 stoplight sur mac (pomme + espace).
 
+{% include figure.html content="img/slicer_bureau.PNG
+" %}
+
 ![Image](img/slicer_bureau.PNG)
 
 Une fois démarré, vous arrivez sur la page d'accueil de slicer 
