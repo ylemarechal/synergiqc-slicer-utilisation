@@ -33,7 +33,7 @@ Dans la partie ````Server url````, il faut renseigner l'url fournie à la premi�
 
 ![Image](img/slicer_dicomweb_url.PNG)
 
-{% include note.html content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
+{% include note.html type="info" content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
 " %}
 
 La partie ````Studies```` affiche l'ensemble des études disponibles. En cliquant sur une en particulier, les séries 
@@ -49,6 +49,22 @@ sont présentes que sur le serveur. Une fois les images récupérées on peut fe
 
 Pour aller dans la base d'images locales, il suffit de cliquer sur le bouton ````dcm````
 ![Image](img/slicer_dicom.PNG)
+
+Pour charger une série CT, il faut sélectionner le patient, puis l'étude et enfin la série concernée puis cliquer sur 
+````load````.
+![Image](img/slicer_dicom_studies.PNG)
+
+La série devrait s'afficher, et la série chargée sur la partie gauche.
+{% include note.html type="warning" content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
+" %}
+![Image](img/slicer_dicom_serie_chargee.PNG)
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
