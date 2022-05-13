@@ -29,7 +29,7 @@ Sur le bandeau de gauche, il y a le bouton ````Show browser```` pour accéder au
 ![Image](img/slicer_dicomweb_menu.PNG)
 
 Dans la partie ````Server url````, faut inscrire l'url fournie.
-{% highlight ruby %}
+{% highlight markdown %}
 **Attention:** Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé .
 {% endhighlight %}
 
