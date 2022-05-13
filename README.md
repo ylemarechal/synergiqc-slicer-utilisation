@@ -13,7 +13,7 @@ Une fois démarré, vous arrivez sur la page d'accueil de slicer
 
 ![Image](img/slicer_accueil.PNG)
 
-## Chargement des images
+## Récupérer des images
 
 Pour charger les images, il faut utiliser le module dicomweb, accessible via la recherche (loupe).
 
@@ -28,14 +28,24 @@ Sur le bandeau de gauche, il y a le bouton ````Show browser```` pour accéder au
 
 ![Image](img/slicer_dicomweb_menu.PNG)
 
-Dans la partie ````Server url````, faut inscrire l'url fournie.
+Dans la partie ````Server url````, il faut renseigner l'url fournie à la première utilisation et est enregistrée ensuite.
+
+
+![Image](img/slicer_dicomweb_url.PNG)
 
 {% include note.html content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
 " %}
 
-![Image](img/slicer_dicomweb_url.PNG)
-
+La partie ````Studies```` affiche l'ensemble des études disponibles. En cliquant sur une en particulier, les séries 
+associées s'affichent. Il est possible de filtrer à l'aide de la partie ````Filter````. Ce filtre s'applique sur toutes 
+les colonnes de la partie ````Studies````. Après avoir sélectionné la ou les séries ou études souhaitées, il faut les 
+récupérer localement via le bouton de téléchargement (entouré en rouge dans l'image ci-dessous). Le bouton entouré en 
+récupère également et le charge dans slicer directement. Dans l'exemple ci-dessous, au niveau des séries, la série 1 est
+présente localement, représenté par l'icone cylindrique, la ligne 2 est en cours de téléchargement et les lignes 3-6 ne 
+sont présentes que sur le serveur. Une fois les images récupérées on peut fermer cette fenêtre.
 ![Image](img/slicer_dicomweb_chargement.PNG)
+
+## Charger des images
 
 You can use the [editor on GitHub](https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
