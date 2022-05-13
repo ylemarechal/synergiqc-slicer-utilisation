@@ -10,7 +10,7 @@ stoplight sur mac (pomme + espace).
 {% include figure.html content="img/slicer_bureau.PNG
 " %}
 
-![Image](img/slicer_bureau.PNG)
+![Image](/img/slicer_bureau.PNG)
 
 Une fois démarré, vous arrivez sur la page d'accueil de slicer 
 
