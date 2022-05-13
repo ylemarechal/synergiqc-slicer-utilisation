@@ -1,4 +1,28 @@
-## Welcome to GitHub Pages
+## Utilisation de slicer pour les annotations
+
+Slicer est utilsé comme plateforme d'annotation des images. 
+
+## Démarrage
+
+Pour lancer Slicer, une icone se trouve sur le bureau ou via le menu démarrer sur windows ou en recherchant avec 
+stoplight sur mac (pomme + espace).
+
+![Image](img/slicer_bureau.PNG)
+
+Une fois démarré, vous arrivez sur la page d'accueil de slicer 
+
+![Image](img/slicer_accueil.PNG)
+
+
+## Chargement des images
+
+Pour charger les images, il faut utiliser le module dicomweb, accessible via la recherche (loupe).
+
+![Image](img/slicer_loupe.PNG)
+
+Il suffit de rechercher le module souhaité dans le menu déroulant, ou en écrivant son nom, ici ````dicomweb````
+
+![Image](img/slicer_dicomweb.PNG)
 
 You can use the [editor on GitHub](https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
