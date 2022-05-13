@@ -48,10 +48,10 @@ sont présentes que sur le serveur. Une fois les images récupérées on peut fe
 ## Charger des images
 
 Pour aller dans la base d'images locales, il suffit de cliquer sur le bouton ````dcm````
+
 ![Image](img/slicer_dicom.PNG)
 
-Pour charger une série CT, il faut sélectionner le patient, puis l'étude et enfin la série concernée puis cliquer sur 
-````load````.
+Pour charger une série CT, il faut sélectionner le patient, puis l'étude et enfin la série concernée puis cliquer sur ````load````.
 ![Image](img/slicer_dicom_studies.PNG)
 
 La série devrait s'afficher, et la série chargée sur la partie gauche.
