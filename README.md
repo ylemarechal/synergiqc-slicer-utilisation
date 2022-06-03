@@ -9,11 +9,10 @@ stoplight sur mac (pomme + espace).
 
 {% include figure.html img="img/slicer_bureau.PNG" caption="Icone Slicer sur le bureau" %}
 
-![Image](img/slicer_bureau.PNG)
-
 Une fois démarré, vous arrivez sur la page d'accueil de slicer 
 
 ![Image](img/slicer_accueil.PNG)
+{% include figure.html img="img/slicer_accueil.PNG" caption="Icone Slicer sur le bureau" %}
 
 ## Récupérer des images
 
@@ -45,6 +44,7 @@ récupérer localement via le bouton de téléchargement (entouré en rouge dans
 récupère également et le charge dans slicer directement. Dans l'exemple ci-dessous, au niveau des séries, la série 1 est
 présente localement, représenté par l'icone cylindrique, la ligne 2 est en cours de téléchargement et les lignes 3-6 ne 
 sont présentes que sur le serveur. Une fois les images récupérées on peut fermer cette fenêtre.
+
 ![Image](img/slicer_dicomweb_chargement.PNG)
 
 ## Charger des images
@@ -54,47 +54,67 @@ Pour aller dans la base d'images locales, il suffit de cliquer sur le bouton ```
 ![Image](img/slicer_dicom.PNG)
 
 Pour charger une série CT, il faut sélectionner le patient, puis l'étude et enfin la série concernée puis cliquer sur ````load````.
+
 ![Image](img/slicer_dicom_studies.PNG)
 
 La série devrait s'afficher, et la série chargée sur la partie gauche.
-{% include warning.html content="Vérifier qu'il n'y a qu'une seule étude chargée afin de ne pas risquer de mélanger les patients. Si une série non voulue est chargée, il suffit de faire un clic droit et delete
-" %}
+{% include warning.html content="Vérifier qu'il n'y ait qu'une seule étude chargée afin de ne pas risquer de mélanger les patients. Si une série non voulue est chargée, il suffit de faire un clic droit et delete" %}
+
 ![Image](img/slicer_dicom_serie_chargee.PNG)
 
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (You can use the [editor on GitHub]&#40;https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md&#41; to maintain and preview the content for your website in Markdown files.)
 
+[//]: # ()
+[//]: # (Whenever you commit to this repository, GitHub Pages will run [Jekyll]&#40;https://jekyllrb.com/&#41; to rebuild the pages in your site, from the content in your Markdown files.)
 
+[//]: # ()
+[//]: # (### Markdown)
 
-You can use the [editor on GitHub](https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[//]: # ()
+[//]: # (Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[//]: # ()
+[//]: # (```markdown)
 
-### Markdown
+[//]: # (Syntax highlighted code block)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[//]: # ()
+[//]: # (# Header 1)
 
-```markdown
-Syntax highlighted code block
+[//]: # (## Header 2)
 
-# Header 1
-## Header 2
-### Header 3
+[//]: # (### Header 3)
 
-- Bulleted
-- List
+[//]: # ()
+[//]: # (- Bulleted)
 
-1. Numbered
-2. List
+[//]: # (- List)
 
-**Bold** and _Italic_ and `Code` text
+[//]: # ()
+[//]: # (1. Numbered)
 
-```
+[//]: # (2. List)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+[//]: # ()
+[//]: # (**Bold** and _Italic_ and `Code` text)
 
-### Jekyll Themes
+[//]: # ()
+[//]: # (```)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ylemarechal/synergiqc-slicer-utilisation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[//]: # ()
+[//]: # (For more details see [Basic writing and formatting syntax]&#40;https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&#41;.)
 
-### Support or Contact
+[//]: # ()
+[//]: # (### Jekyll Themes)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[//]: # ()
+[//]: # (Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings]&#40;https://github.com/ylemarechal/synergiqc-slicer-utilisation/settings/pages&#41;. The name of this theme is saved in the Jekyll `_config.yml` configuration file.)
+
+[//]: # ()
+[//]: # (### Support or Contact)
+
+[//]: # ()
+[//]: # (Having trouble with Pages? Check out our [documentation]&#40;https://docs.github.com/categories/github-pages-basics/&#41; or [contact support]&#40;https://support.github.com/contact&#41; and we’ll help you sort it out.)
