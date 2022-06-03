@@ -1,3 +1,6 @@
+* TOC
+  {:toc}
+
 ## Utilisation de slicer pour les annotations
 
 Slicer est utilisé comme plateforme d'annotation des images. 
@@ -34,8 +37,7 @@ Dans la partie ````Server url````, il faut renseigner l'url fournie à la premi�
 
 ![Image](img/slicer_dicomweb_url.PNG)
 
-{% include note.html content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la mets pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé.
-" %}
+{% include note.html content="Le bouton ````Use cached server response```` est coché par défaut pour charger plus rapidement la liste, mais ne la met pas forcément à jour. Ne pas oublier de la décocher si le patient souhaité n'est pas trouvé. Le temps de réponse peut être très long et slicer peut sembler ne plus répondre." %}
 
 La partie ````Studies```` affiche l'ensemble des études disponibles. En cliquant sur une en particulier, les séries 
 associées s'affichent. Il est possible de filtrer à l'aide de la partie ````Filter````. Ce filtre s'applique sur toutes 
@@ -62,59 +64,4 @@ La série devrait s'afficher, et la série chargée sur la partie gauche.
 
 ![Image](img/slicer_dicom_serie_chargee.PNG)
 
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (You can use the [editor on GitHub]&#40;https://github.com/ylemarechal/synergiqc-slicer-utilisation/edit/main/README.md&#41; to maintain and preview the content for your website in Markdown files.)
 
-[//]: # ()
-[//]: # (Whenever you commit to this repository, GitHub Pages will run [Jekyll]&#40;https://jekyllrb.com/&#41; to rebuild the pages in your site, from the content in your Markdown files.)
-
-[//]: # ()
-[//]: # (### Markdown)
-
-[//]: # ()
-[//]: # (Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for)
-
-[//]: # ()
-[//]: # (```markdown)
-
-[//]: # (Syntax highlighted code block)
-
-[//]: # ()
-[//]: # (# Header 1)
-
-[//]: # (## Header 2)
-
-[//]: # (### Header 3)
-
-[//]: # ()
-[//]: # (- Bulleted)
-
-[//]: # (- List)
-
-[//]: # ()
-[//]: # (1. Numbered)
-
-[//]: # (2. List)
-
-[//]: # ()
-[//]: # (**Bold** and _Italic_ and `Code` text)
-
-[//]: # ()
-[//]: # (```)
-
-[//]: # ()
-[//]: # (For more details see [Basic writing and formatting syntax]&#40;https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&#41;.)
-
-[//]: # ()
-[//]: # (### Jekyll Themes)
-
-[//]: # ()
-[//]: # (Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings]&#40;https://github.com/ylemarechal/synergiqc-slicer-utilisation/settings/pages&#41;. The name of this theme is saved in the Jekyll `_config.yml` configuration file.)
-
-[//]: # ()
-[//]: # (### Support or Contact)
-
-[//]: # ()
-[//]: # (Having trouble with Pages? Check out our [documentation]&#40;https://docs.github.com/categories/github-pages-basics/&#41; or [contact support]&#40;https://support.github.com/contact&#41; and we’ll help you sort it out.)
