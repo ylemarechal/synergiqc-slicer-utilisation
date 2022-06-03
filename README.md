@@ -1,5 +1,4 @@
-* TOC
-  {:toc}
+{% include toc.html html=content %}
 
 ## Utilisation de slicer pour les annotations
 
