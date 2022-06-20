@@ -64,11 +64,49 @@ La série devrait s'afficher, et la série chargée sur la partie gauche.
 ![Image](img/slicer_dicom_serie_chargee.PNG)
 
 
-# Contourages
+## Contourages
 
-Une fois chargé, le TDM apparait à droite.
+Une fois chargé, le TDM apparait à droite. Il reste à charger le module ````Quantitative Reporting````
+{% include figure.html img="img/slicer_module_qr.PNG" %}
 
-# Générer un lien pour récupérer les images
+Pour une nouvelle segmentation, dans ````Mesurement report````, il faut créer une nouvelle table et dans ````Master volume````
+sélectionner le volume à contourer. Il ne devrait y en avoir que un.
+
+{% include figure.html img="img/slicer_qr_new.PNG" %}
+
+Ensuite on peut rajouter une nouvelle segmentation. 
+{% include figure.html img="img/slicer_qr_add.PNG" %}
+
+Une fois une nouvelle segmentation générée, on peut segmenter directement sur le CT en sélectionnant le pinceau (en rouge)
+dans la figure ci-dessous et le diamètre de peinture (en bleu sur la figure). 
+
+{% include figure.html img="img/slicer_qr_segmentation.PNG" %}
+
+Pour changer le fenêtrage de l'image, il suffit de cliquer sur l'icone en haut de l'écran (en rouge sur la figure ci-dessous)
+et changer les options en déplaçant la sourir avec le clic gauche enfoncé. Pour revenir à la navigation par souris, il suffit de 
+sélection le curseur (bleu sur la figure).
+{% include figure.html img="img/slicer_ct_fenetrage.PNG" %}
+
+En cliquant sur la couleur à gauche du nom de l'organe, on arrive à l'outil de selection du nom et de la couleur de segmentation
+{% include figure.html img="img/slicer_qr_list_organ.PNG" %}
+
+Le contourage apparait sur les 3 dimensions du CT en surimpression.
+{% include figure.html img="img/slicer_qr_contour.PNG" %}
+
+Une fois terminé, il suffit de cliquer sur ````Complete Report````
+{% include figure.html img="img/slicer_qr_contour.PNG" %}
+
+Il sera demandé de valider les métadonnées concernant la segmentation.
+{% include figure.html img="img/slicer_qr_save_option.PNG" %}
+
+
+## Envoyer un examen
+
+Pour envoyer des images, il suffit d'aller dans le module ````dcm```` en haut à gauche de Slicer, de sélectionner les 
+examens à envoyer, et faire un clic droit ````Send to dicom server````. Ensuite il faut sélectionner le protocole
+````DICOMweb```` et inscrire l'adresse de destination fournie. 
+
+## Générer un lien pour récupérer les images
 
 Pour générer un lien depuis un album de Kheops, il faut aller dans la section réglages
 {% include figure.html img="img/kheops_reglages.PNG"  %}
@@ -77,7 +115,7 @@ Puis aller dans la section ````token```` et cliquer sur ````Nouveau token````
 {% include figure.html img="img/kheops_reglages_token.PNG" %}
 
 Il ne reste plus qu'à choisir les options. Dans notre cas, il faut choisir en lecture et écriture
-{% include figure.html img="img/kheops_nouveau_nom.PNG" %}
+{% include figure.html img="img/kheops_nouveau_token.PNG" %}
 
 Le lien d'accès apparaitra et sera de type https://url/view/AbC123CDDSGXXX. Pour pouvoir l'utiliser dans Slicer, il faut
 remplacer la partie ````view```` par ````api/link```` dans le lien.
