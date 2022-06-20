@@ -64,3 +64,20 @@ La série devrait s'afficher, et la série chargée sur la partie gauche.
 ![Image](img/slicer_dicom_serie_chargee.PNG)
 
 
+# Contourages
+
+Une fois chargé, le TDM apparait à droite.
+
+# Générer un lien pour récupérer les images
+
+Pour générer un lien depuis un album de Kheops, il faut aller dans la section réglages
+{% include figure.html img="img/kheops_reglages.PNG"  %}
+
+Puis aller dans la section ````token```` et cliquer sur ````Nouveau token````
+{% include figure.html img="img/kheops_reglages_token.PNG" %}
+
+Il ne reste plus qu'à choisir les options. Dans notre cas, il faut choisir en lecture et écriture
+{% include figure.html img="img/kheops_nouveau_nom.PNG" %}
+
+Le lien d'accès apparaitra et sera de type https://url/view/AbC123CDDSGXXX. Pour pouvoir l'utiliser dans Slicer, il faut
+remplacer la partie ````view```` par ````api/link```` dans le lien.
